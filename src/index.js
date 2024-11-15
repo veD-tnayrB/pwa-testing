@@ -1,5 +1,5 @@
 const button = document.querySelector('button');
-let swLocation = '/public/service-worker.js';
+let swLocation = '/service-worker.js';
 
 if (navigator.serviceWorker) {
 	console.log('NAVIGATOR.SERVICEWORKER: ', swLocation);
